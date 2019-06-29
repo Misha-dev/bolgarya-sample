@@ -1,0 +1,785 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+button,
+input,
+button:hover,
+button:active,
+button:focus,
+input:focus,
+input:active {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+* {
+    -moz-transition: all 0.3s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+div,
+p,
+a,
+img,
+form,
+button,
+li {
+    box-sizing: border-box;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.bolder {
+    font-weight: 800;
+}
+
+/* Главная */
+
+header {
+    background: url(../img/index/background_bolgarya.png) no-repeat;
+}
+
+section {
+    padding: 70px 0 70px 0;
+}
+
+.navigation {
+    background: url(../img/index/navigation_bg.png);
+}
+
+.menu_item {
+    float: left;
+}
+
+.menu {
+    margin-top: 25px;
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+}
+
+.menu_item a {
+    color: aliceblue;
+    font-size: 0.733rem;
+    font-weight: 800;
+    padding: 6px 8.2px;
+    text-transform: uppercase;
+}
+
+.menu_item a:hover {
+    background: #3A596C;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+.phones {
+    margin-top: 10px;
+    font-size: 1.067rem;
+    font-weight: 800;
+    color: white;
+}
+
+.phone_img {
+    margin: 25px 0px 20px 30px;
+}
+
+.header_bolg {
+    font-size: 6rem;
+    color: white;
+    margin-top: 205px;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+
+.header_under {
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-size: 2.3rem;
+    color: white;
+    margin-bottom: 150px;
+}
+
+.arrow {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.merits__text {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    color: black;
+    margin-bottom: 68px;
+}
+
+.merits__item {
+    background: #F2F2F2;
+    height: 358px;
+    padding: 30px 0px 25px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12)
+}
+
+.m_img {
+    height: 120px;
+}
+
+.solid_img {
+    background: url(../img/index/solid.png) no-repeat center center;
+}
+
+.deal_img {
+    background: url(../img/index/deal.png) no-repeat center center;
+}
+
+.conference__img {
+    background: url(../img/index/conference.png) no-repeat center center;
+}
+
+.merits_title {
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+}
+
+.merits_title::after {
+    content: '';
+    display: block;
+    background: #BFBFBF;
+    width: 40px;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 155px;
+}
+
+#moving {
+    background: url(../img/index/bolgarya__travel.png) no-repeat;
+}
+
+.moving__title {
+    font-size: 2.8rem;
+    letter-spacing: 0.2rem;
+    color: white;
+}
+
+.moving__title_under {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: lighter;
+}
+
+.moving__title_author {
+    font-size: 0.933rem;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.moving__time {
+    background: url(../img/index/cover.png) no-repeat center;
+    height: 200px;
+    padding-top: 65px;
+    color: white;
+}
+
+.moving__time_up {
+    font-size: 1.267rem;
+
+}
+
+.moving__time_under {
+    font-size: 1.533rem;
+}
+
+.moving__answer {
+    color: white;
+    font-size: 2.467rem;
+    margin-top: 30px;
+    letter-spacing: 0.05em;
+}
+
+.moving__answer_under {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.know_block {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.know_more {
+    color: #fff !important;
+}
+
+.act {
+    margin: 0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: block;
+    width: 230px;
+    padding: 17px 0px;
+    letter-spacing: 0.15em;
+    height: 63px;
+}
+
+.know_more:hover {
+    background: white;
+    color: #2A3A4C !important;
+}
+
+.property__header {
+    letter-spacing: 0.1em;
+    font-size: 2.5rem;
+}
+
+#property {
+    background: url(../img/index/backround_services.png);
+}
+
+.dream {
+    position: relative;
+    z-index: 1;
+}
+
+.dream__imgs img {
+    position: absolute;
+}
+
+.img_left {
+    left: 34%;
+    top: 80px;
+    z-index: -4;
+}
+
+.img_center {
+    top: 10px;
+    left: 41%;
+}
+
+.img_right {
+    top: 85px;
+    left: 54%;
+    z-index: -4;
+}
+
+.img_bottom {
+    top: 350px;
+    left: 47.5%;
+    z-index: 2;
+}
+
+.dream__main {
+    margin: 150px auto 0 auto;
+    height: 236px;
+    width: 770px;
+    background: #F2F2F2;
+    font-size: 1.333rem;
+    padding: 50px 20px 0 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+}
+
+
+.dream__under {
+    font-size: 1.133rem;
+}
+
+.dream_secondary {
+    margin: 5px auto 0 auto;
+    height: 140px;
+    width: 770px;
+    background: #F2F2F2;
+    font-size: 1.133rem;
+    padding: 20px 10px 0 10px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.dream_know {
+    color: #3EA2DE;
+    border: 2px solid #3EA2DE;
+}
+
+.dream_know:hover {
+    background: #3EA2DE;
+    color: white !important;
+}
+
+.reviews_header {
+    letter-spacing: 0.1em;
+    font-size: 2.5rem;
+}
+
+.slider {
+    margin: 90px auto 0 auto;
+    width: 770px;
+    height: 170px;
+    box-shadow: 1px 6px 3px rgba(0, 0, 0, 0.12);
+}
+
+.slick-dots {
+    top: 200px;
+}
+
+#slick-slide-control00,
+#slick-slide-control01,
+#slick-slide-control02 {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slick-dots li {
+    width: 24px !important;
+    height: 24px !important;
+    margin: 0 8px !important;
+    background: white;
+    border-radius: 50%;
+    border: 1.5px solid #3EA2DE;
+    border-style: dashed;
+}
+
+.slick-dots li.slick-active {
+    background: #3EA2DE;
+}
+
+
+
+.slick-dots li button:before {
+    display: none;
+
+}
+
+
+.reviews_1 {
+    position: relative;
+    margin: 0 auto;
+    width: 770px;
+    height: 170px;
+    padding: 0px 30px 0px 134px
+}
+
+.reviews_img {
+    position: absolute;
+    left: -0.01px;
+}
+
+.reviews_arrow {
+    position: absolute;
+    color: #3EA2DE;
+    top: 30%;
+    cursor: pointer;
+}
+
+.slick-arrow::before {
+    font-size: none;
+}
+
+.slick-arrow {
+    width: 20px !important;
+    height: 25px !important;
+}
+
+.slick-prev:before,
+.slick-next::before {
+    content: '' !important;
+}
+
+.slick-prev {
+    left: -55px !important;
+    background: url(../img/index/arrow_left.png) no-repeat center center !important;
+}
+
+.slick-next {
+    right: -55px !important;
+    background: url(../img/index/arrow_right.png) no-repeat center center !important;
+}
+
+
+.reviews_arrow_left {
+    left: -150px;
+}
+
+.reviews_arrow_right {
+    left: 850px;
+}
+
+.reviews_circles {
+    position: absolute;
+    top: 200px;
+    left: 330px;
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    float: left;
+    background: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1.5px solid #3EA2DE;
+    border-style: dashed;
+}
+
+.circle_active {
+    background: #3EA2DE;
+}
+
+.initial {
+    display: inline;
+}
+
+.in_name {
+    font-size: 0.99rem;
+    letter-spacing: 0.05em;
+    margin-right: 45px;
+}
+
+.in_vk {
+    color: #3EA2DE;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.in_flight {
+    color: #3EA2DE;
+    font-size: 0.9rem;
+    float: right;
+}
+
+#consultation {
+    margin-top: 50px;
+    background: url(../img/index/consultaion-background.png);
+}
+
+.consultation_text {
+    letter-spacing: 0.1em;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.consultation_text_under {
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 20px;
+}
+
+.arrow_consult {
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+.form {
+    margin: 55px auto 0 auto;
+}
+
+.order_input::placeholder {
+    color: white;
+}
+
+.order_input {
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    padding: 16px 15px 16px 35px;
+    background: #4ABCFF;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    opacity: 0.7;
+}
+
+.order_input:focus {
+    opacity: 1;
+}
+
+.order__btn {
+    width: 100%;
+    background: none;
+    color: white;
+}
+
+.order__btn:hover {
+    background: white;
+    color: #4ABCFF;
+}
+
+footer {
+    padding: 10px 0px 10px 0;
+    background: url(../img/index/footer.png)
+}
+
+.footer_data {
+    margin-top: 25px;
+}
+
+.footer_info {
+    font-size: 0.933rem;
+    color: white;
+    float: left;
+}
+
+.footer_logo {
+    margin-top: 5px;
+}
+
+
+.footer_info:nth-child(2) {
+    margin-left: 80px;
+    border-bottom: 1px dashed white;
+}
+
+
+/* Контакты */
+
+.header_contacts {
+    margin-top: 100px;
+    font-size: 3.4rem;
+    letter-spacing: 0.15em;
+}
+
+.arrow_contacts {
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+.phone_contacts {
+    margin-top: 23px;
+    font-size: 1.067rem;
+    border-bottom: white dashed;
+}
+
+.sign_content {
+    height: 650px;
+    background: white;
+    padding: 50px 100px 20px 100px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
+}
+
+#sign_contacts {
+    margin-top: -200px;
+    box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+.header_sign {
+    font-size: 1.133rem;
+}
+
+.contacts_connection {
+    margin-top: 140px;
+}
+
+.item_connection {
+    margin-bottom: 20px;
+    padding: 21px 5px;
+}
+
+.item_skype {
+    margin-bottom: 0;
+}
+
+.item_tel {
+    background: url(../img/contacts/phone_contacts.png) left top no-repeat;
+
+}
+
+.item_header {
+    font-size: 1.1rem;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+.item_info {
+    font-size: 1.067rem;
+    margin-left: 58px;
+    margin-top: 10px;
+}
+
+.item_info_2 {
+    margin-top: 0;
+}
+
+.item_email {
+    background: url(../img/contacts/email.png) left top no-repeat;
+
+}
+
+.item_skype {
+    background: url(../img/contacts/skype.png) left top no-repeat;
+
+}
+
+.form_contacts {
+    background: #3BAAF3;
+    padding: 10px 40px 20px 40px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.consultation_text_contacts {
+    font-size: 1.667rem;
+}
+
+.consultation_text_under_contacts {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Недвижимость */
+
+#consultation_property {
+    margin-top: 0;
+    background: url(../img/index/consultaion-background.png);
+}
+
+.consultation_text_under_property {
+    font-weight: lighter;
+}
+
+
+.property_content {
+    background: white;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
+}
+
+.header_prop {
+    font-size: 1.133rem;
+}
+
+.prop_point_top {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background: url(../img/property/house.png) left center no-repeat;
+    padding: 50px 0px 50px 460px;
+}
+
+.prop_point_under {
+    background: url(../img/property/Package.png) right center no-repeat;
+    padding: 50px 440px 50px 0px;
+}
+
+/* О компании */
+
+.header_acompany {
+    margin-top: 30px;
+    padding: 0 40px;
+}
+
+.acompany_content {
+    padding: 20px 0 60px 0;
+}
+
+.acompany_info {
+    margin-top: 40px;
+    padding: 0px 100px
+}
+
+.acompany_clients_big {
+    font-size: 2.4rem;
+    color: #3EA2DE;
+    letter-spacing: 0.1em;
+}
+
+.acompany_own {
+    font-size: 1.267rem;
+    opacity: 0.3;
+    font-weight: 360;
+    letter-spacing: 0.3em;
+    margin-top: 30px;
+}
+
+.acompany_houses {
+    font-size: 1.8rem;
+}
+
+.acompany_house_big {
+    color: #3EA2DE;
+}
+
+.ready {
+    margin-top: 60px;
+    background: #3EA2DE;
+    padding: 20px 0 20px 0;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.partners_header {
+    margin-top: 60px;
+    font-size: 1.6rem;
+}
+
+.partners {
+    margin-top: 40px;
+    padding: 0 40px;
+}
+
+.partner_left,
+.partner_right {
+    height: 530px;
+    padding: 35px 20px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
+    background: #F2F2F2;
+}
+
+.p_img {
+    background: url(../img/about_company/partner_left.png) center center no-repeat;
+    height: 140px;
+}
+
+.partners_headers {
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.partners_text {
+    text-align: initial;
+    color: #4C4C4C;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+/* pr-partner_right */
+
+.pr_img {
+    background: url(../img/about_company/partner_right.png) center center no-repeat;
+}
+
+.pr_text {
+    line-height: 1.6em;
+}

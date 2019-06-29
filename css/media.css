@@ -1,0 +1,581 @@
+@media screen and (max-width: 1200px) {
+
+    /* Главная */
+
+    .menu {
+        display: none;
+    }
+
+    .phone_main,
+    .phone_second {
+        font-size: 0.99rem;
+    }
+
+    .phone_main {
+        margin-top: 4px;
+    }
+
+    .phone_img {
+        margin: 25px 0px 15px 15px;
+    }
+
+    .footer_data {
+        display: none;
+    }
+
+    .phone_main_contacts {
+        margin-top: 0px;
+    }
+
+    /* Контакты */
+
+    #sign_contacts {
+        margin-top: 0;
+    }
+
+    .sign_content {
+        box-shadow: none;
+        background: none;
+        padding: 0;
+    }
+
+    .property_content {
+        box-shadow: none;
+        background: none;
+    }
+
+    /* О компании */
+
+    .partner_left,
+    .partner_right {
+        height: 590px;
+    }
+
+    .acompany_info {
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .partners {
+        padding: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Главная */
+
+    .merits_title::after {
+        margin-left: 323px;
+    }
+
+    .merits__item {
+        margin-bottom: 30px;
+    }
+
+    .reviews_arrow {
+        display: none;
+    }
+
+    .phone_main,
+    .phone_second {
+        font-size: 1rem;
+    }
+
+    .phone_main {
+        margin-top: 5px;
+    }
+
+    .phone_img {
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+
+    .phone_main_logo {
+        margin-top: 3px;
+    }
+
+    .reviews_1 {
+        width: 650px;
+    }
+
+    .slider {
+        width: 650px;
+    }
+
+    .header_bolg {
+        font-size: 5rem;
+    }
+
+    .dream__main,
+    .dream_secondary {
+        width: 650px;
+    }
+
+    .dream__under {
+        font-size: 1rem;
+    }
+
+    .img_bottom {
+        left: 46%;
+    }
+
+    .img_center {
+        left: 38%;
+    }
+
+    .img_left {
+        left: 32%;
+    }
+
+    .img_right {
+        left: 53%;
+    }
+
+    .reviews_circles {
+        left: 280px;
+    }
+
+    .phone_main_contacts {
+        margin-top: -1px;
+    }
+
+    .slick-prev {
+        left: -45px !important;
+    }
+
+    .slick-next {
+        right: -45px !important;
+    }
+
+    /* Недвижимость */
+
+    .header_main_prop {
+        font-size: 3rem;
+    }
+
+    .prop_point_top {
+        margin-bottom: 5px;
+        padding: 50px 0px 50px 420px;
+        font-size: 0.9rem;
+    }
+
+    .prop_point_under {
+        font-size: 0.9rem;
+        padding: 50px 400px 50px 0px;
+    }
+
+    /* О компании */
+
+    .header_main_acompany {
+        font-size: 4rem;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Главная */
+
+    .hamburger {
+        display: block;
+        left: 130px;
+        top: 37%;
+        cursor: pointer;
+    }
+
+    .phones {
+        margin-right: 15px;
+    }
+
+    .phone_img {
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .header_bolg {
+        font-size: 4.333rem;
+        letter-spacing: 0.1em
+    }
+
+    .merits_title::after {
+        margin-left: 41%;
+    }
+
+    .merits_title::after {
+        margin-left: 41%;
+    }
+
+    .merits_title_3::after {
+        margin-left: 46%;
+    }
+
+    .merits_under_2 {
+        font-size: 0.93rem;
+    }
+
+    .merits_under_3 {
+        font-size: 1rem;
+    }
+
+    .moving__title {
+        font-size: 2.2rem;
+    }
+
+    .moving__time_up {
+        font-size: 1.2rem;
+    }
+
+    .moving__time_under {
+        font-size: 1.23rem;
+    }
+
+    .property__header {
+        font-size: 1.1rem;
+    }
+
+    .dream__main,
+    .dream_secondary {
+        width: 480px;
+        left: 44%;
+    }
+
+    .dream__main {
+        height: 280px;
+    }
+
+    .dream_header {
+        font-size: 1rem;
+    }
+
+    .dream__under {
+        font-size: 1rem;
+    }
+
+    .dream_secondary {
+        height: 160px;
+    }
+
+    .img_bottom {
+        top: 400px;
+        left: 45%;
+
+    }
+
+    .img_center {
+        left: 33%;
+    }
+
+    .img_left {
+        left: 25%;
+    }
+
+    .img_right {
+        left: 54%;
+    }
+
+    .reviews_1 {
+        width: 500px;
+    }
+
+    .slider {
+        width: 500px;
+    }
+
+    .reviews_text {
+        font-size: 0.9rem;
+    }
+
+    .in_name {
+        margin-right: 7px;
+    }
+
+    .in_name,
+    .in_vk,
+    .in_flight {
+        font-size: 0.75rem;
+    }
+
+    .in_flight {
+        margin-right: -12px;
+        margin-top: 4px;
+    }
+
+    .reviews_header {
+        font-size: 1.8rem;
+    }
+
+    .reviews_circles {
+        left: 210px;
+    }
+
+    .consultation_text {
+        font-size: 1.8rem;
+    }
+
+    .reviews_img {
+        left: 0;
+    }
+
+    .merits__text {
+        font-size: 2rem;
+    }
+
+
+    /* Контакты */
+
+    .item_connection {
+        padding-top: 80px;
+        padding-left: 0;
+        background-position: center top;
+        text-align: center;
+        width: 100%;
+    }
+
+    .item_header {
+        margin-left: 0;
+    }
+
+    .item_info {
+        margin-left: 0;
+    }
+
+    .contacts_connection {
+        margin-top: 40px;
+    }
+
+    .sign_content {
+        height: 1300px;
+    }
+
+
+    /* Недвижимость */
+
+    .header_main_prop {
+        font-size: 2.5rem;
+    }
+
+    .prop_point_top {
+        background-position: center top;
+        text-align: center;
+        width: 100%;
+        padding-top: 200px;
+        padding-left: 0;
+    }
+
+    .prop_point_under {
+        background-position: center top;
+        text-align: center;
+        width: 100%;
+        padding-top: 320px;
+        padding-right: 0;
+    }
+
+    /* О компании */
+
+    .header_main_acompany {
+        font-size: 3.5rem;
+    }
+
+    .partner_left {
+        height: 500px;
+    }
+
+    .partner_left {
+        margin-bottom: 30px;
+    }
+
+    .acompany_own {
+        margin-bottom: 20px;
+    }
+
+    .sign_content_special {
+        padding: 70px 0px;
+    }
+
+    #sign_contacts {
+        padding: 50px 0;
+    }
+
+    .partner_right {
+        height: 450px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    /* Главная */
+
+    .phone_main,
+    .phone_img,
+    .phone_second {
+        display: none;
+    }
+
+    .hamburger {
+        top: 35%;
+        left: 90%;
+    }
+
+    .merits__text {
+        font-size: 1.6rem;
+    }
+
+    .merits_title::after {
+        margin-left: 44%;
+    }
+
+    .header_bolg {
+        font-size: 3.133rem;
+    }
+
+    .moving__time {
+        padding-top: 14%;
+    }
+
+    .moving__time_under,
+    .moving__time_up {
+        font-size: 1.1rem;
+    }
+
+    .moving__answer {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .moving__answer_under {
+        font-size: 0.95rem;
+    }
+
+    .know_block {
+        margin-top: 20px;
+    }
+
+    .dream__main,
+    .dream_secondary {
+        width: 340px;
+    }
+
+    .img_bottom {
+        display: none;
+    }
+
+    .dream__under {
+        font-size: 0.9rem;
+    }
+
+    .img_center {
+        left: 31%;
+    }
+
+    .img_left {
+        left: 23%;
+    }
+
+    .img_right {
+        left: 52%;
+    }
+
+    .reviews_1 {
+        width: 310px;
+        height: 350px;
+        padding: 80px 15px 0px 15px;
+    }
+
+    .slider {
+        height: 350px;
+        width: 310px;
+    }
+
+    .initials {
+        margin-top: 50px;
+    }
+
+    .slick-dots {
+        top: 370px;
+    }
+
+    .reviews_img {
+        position: absolute;
+        left: 33%;
+        top: 0px;
+    }
+
+    .reviews_text {
+        text-align: center;
+    }
+
+    .in_name {
+        margin-left: 30px;
+    }
+
+    .in_flight {
+        float: none;
+        display: block;
+        margin-left: 98px;
+        margin-top: 10px;
+    }
+
+    .reviews_circles {
+        left: 115px;
+        top: 390px;
+    }
+
+    .footer_logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Контакты */
+
+    .header_contacts {
+        font-size: 2.85rem
+    }
+
+    /* Недвижимость */
+
+    .header_main_prop {
+        font-size: 1.8rem;
+    }
+
+    /* О компании */
+
+    .header_main_acompany {
+        font-size: 2.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .partner_left {
+        height: 640px;
+    }
+
+    .partner_right {
+        height: 520px;
+    }
+
+    .dream__main,
+    .dream_secondary {
+        width: 300px;
+    }
+
+    .dream_secondary {
+        padding: 10px 10px 0 10px;
+    }
+
+    .dream__under {
+        font-size: 0.85rem;
+    }
+
+    .slick-arrow {
+        display: none !important;
+    }
+
+}
